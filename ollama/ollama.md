@@ -1,8 +1,8 @@
 ## Commands
 
 mkdir ollama
-touch Modelfile
-touch ollama.md
+touch ollama/Modelfile
+touch ollama/ollama.md
 ollama ls (I have llama3.2:1b already pulled)
 ollama create sarcastic -f Modelfile
 ollama run sarcastic
